@@ -8,9 +8,6 @@ public class Task2 {
         Random random = new Random();
         int[] array = new int[100];
 
-        for (int i: array) {
-            array[i] = random.nextInt(10000);
-        }
         for (int i = 0; i < array.length; i++) {
             array[i] = random.nextInt(10000);
         }
